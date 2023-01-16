@@ -7,10 +7,17 @@ body {
 
 section {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-
+.main {
+    display: flex;
+}
+sidebar {
+    margin:10px;
+    background-color: aqua;
+    min-width: 200px;
+}
 article {
     flex: 1;
 }
@@ -18,6 +25,17 @@ article {
 article:nth-of-type(2) {
     flex:3;
     
+}
+
+.flexContainer {
+    display: flex;
+    background-color: rgb(205, 119, 15);
+}
+
+.flexGrowContainer {
+    display: flex;
+    align-items: stretch;
+    background-color: blue;
 }
 
 h1 {
