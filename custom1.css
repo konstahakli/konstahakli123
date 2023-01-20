@@ -1,0 +1,26 @@
+body {
+    background-color: aquamarine;
+}
+
+header {
+    background-color: brown;
+}
+
+footer {
+    height: 70px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+.blue {
+    background-color: blue;
+}
